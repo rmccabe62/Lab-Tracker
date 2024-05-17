@@ -83,7 +83,7 @@ function App() {
         {/* Form fields */}
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <Typography variant="h5" textAlign={'center'}>Student Name</Typography>
+            <Typography variant="h5" textAlign={'center'}>Student Name:</Typography>
           </Grid>
           <Grid item xs={6}>
             <TextField
@@ -102,7 +102,7 @@ function App() {
             />
           </Grid>
           <Grid item xs={12}>
-            <Typography variant="h5" textAlign={'center'}>Major</Typography>
+            <Typography variant="h5" textAlign={'center'}>Major:</Typography>
             <TextField label="Enter your major" value={major} onChange={(e) => setMajor(e.target.value)} fullWidth />
           </Grid>
 
