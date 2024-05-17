@@ -127,6 +127,7 @@ function App() {
             <Button variant="contained" onClick={handleSaveButtonClick}>
               Save Data
             </Button>
+            <br>
             <Button variant="contained" onClick={handleSaveAllButtonClick}>
               Save All Users Data
             </Button>
