@@ -51,7 +51,7 @@ h5 {
 .MuiButton-contained {
   margin-top: 12px;
   margin-bottom: 12px;
-  text-align: center;
+  align-self: center;
   background-color: #007bff;
   /* Blue */
   color: #fff;
