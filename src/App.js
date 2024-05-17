@@ -108,14 +108,14 @@ function App() {
 
           {/* "In" and "Out" buttons */}
           <Grid item xs={6}>
-            <Button variant="contained" onClick={handleInButtonClick} fullWidth>
+            <Button variant="contained" onClick={handleInButtonClick}>
               In
             </Button>
             {/* Display arrival time if available */}
             {arrivalTime && <Typography>Arrived: {arrivalTime}</Typography>}
           </Grid>
           <Grid item xs={6}>
-            <Button variant="contained" onClick={handleOutButtonClick} fullWidth>
+            <Button variant="contained" onClick={handleOutButtonClick}>
               Out
             </Button>
             {/* Display departure time if available */}
@@ -124,10 +124,10 @@ function App() {
 
           {/* Save Data button */}
           <Grid item xs={12}>
-            <Button variant="contained" onClick={handleSaveButtonClick} fullWidth>
+            <Button variant="contained" onClick={handleSaveButtonClick}>
               Save Data
             </Button>
-            <Button variant="contained" onClick={handleSaveAllButtonClick} fullWidth>
+            <Button variant="contained" onClick={handleSaveAllButtonClick}>
               Save All Users Data
             </Button>
           </Grid>
