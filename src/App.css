@@ -49,8 +49,9 @@ h5 {
 
 /* Buttons */
 .MuiButton-contained {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 3em;
   background-color: #007bff;
   /* Blue */
   color: #fff;
