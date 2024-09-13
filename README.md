@@ -1,3 +1,7 @@
+#This is a lab-centered application that allows an employee to keep track of
+users entering and leaving a school lab by date, time, and major. Built with React.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
